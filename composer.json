@@ -1,0 +1,33 @@
+{
+  "name": "ahmeddabak/livewire-datatables",
+  "authors": [
+    {
+      "name": "Ahmed Dabak",
+      "email": "contact@ahmeddabak.me"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ahmeddabak\\LivewireDatatables\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ahmeddabak\\LivewireDatatables\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "livewire/livewire": "^2.3"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^6.0",
+    "phpunit/phpunit": "^9.3"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ahmeddabak\\LivewireDatatables\\DatatablesServiceProvider"
+      ]
+    }
+  }
+}
